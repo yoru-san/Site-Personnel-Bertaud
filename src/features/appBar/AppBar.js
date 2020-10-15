@@ -24,7 +24,7 @@ const AppBar = (props) => {
     }
 
     return (
-        <Header background="primary">
+        <Header background='primary' align='center'>
             <Button icon={<Home color='secondary' />} hoverIndicator />
             <Text color='secondary'>{props.text}</Text>
             <Menu label="Menu" items={labelsMenu} color="secondary" background="secondary" />
