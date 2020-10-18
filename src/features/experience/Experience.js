@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Header, Button, Menu, Text, Box } from 'grommet';
-import { Home } from 'grommet-icons';
+import { Box } from 'grommet';
 
 const Experience = (props) => {
     const [count, setCount] = useState(0);

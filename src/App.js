@@ -1,8 +1,10 @@
 import React from 'react';
-import { Grommet, Header, Button, Menu } from 'grommet';
+import { Grommet } from 'grommet';
 import AppBar from './features/appBar/AppBar';
 import Presentation from './features/presentation/Presentation';
 import Experience from './features/experience/Experience';
+import AppFooter from './features/footer/Footer';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 
 const theme = {
   global: {
@@ -18,11 +20,22 @@ const theme = {
 function App() {
 
   return (
-    <Grommet theme={theme} >
-      <AppBar text="Céline BERTAUD"></AppBar>
-      <Presentation></Presentation>
-      <Experience></Experience>
-    </Grommet>
+    <BrowserRouter>
+      <Grommet theme={theme} full>
+        <AppBar text="Céline BERTAUD"></AppBar>
+        <Switch>
+          <Route exact path="/presentation">
+            <Presentation></Presentation>
+          </Route>
+        </Switch>
+        <Switch>
+          <Route exact path="/experience">
+            <Experience></Experience>
+          </Route>
+        </Switch>
+        <AppFooter></AppFooter>
+      </Grommet>
+    </BrowserRouter>
   );
 }
 
