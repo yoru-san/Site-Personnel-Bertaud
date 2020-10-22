@@ -23,15 +23,13 @@ const AppBar = (props) => {
         <Header background="primary" align="center">
           <Button icon={<Home color="secondary" />} hoverIndicator />
           <Link to="/">
-            {" "}
-            <Anchor color="secondary">Accueil</Anchor>
+            <Button color="secondary">Accueil</Button>
           </Link>
           <Link to="presentation">
-            <Anchor color="secondary">Présentation</Anchor>
+            <Button color="secondary">Présentation</Button>
           </Link>
           <Link to="experience">
-            {" "}
-            <Anchor color="secondary">Expérience</Anchor>
+            <Button color="secondary">Expérience</Button>
           </Link>
           <Text color="secondary">{props.text}</Text>
         </Header>
