@@ -10,7 +10,7 @@ const theme = {
   global: {
     colors: { primary: '#5A947E', secondary: 'white' },
     font: {
-      family: 'Roboto',
+      family: 'Lato',
       size: '18px',
       height: '20px',
     },

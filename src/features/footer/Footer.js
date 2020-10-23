@@ -10,7 +10,6 @@ const AppFooter = (props) => {
   return (
     <Footer background="primary" pad="medium">
       <Text color="secondary">Copyright Céline BERTAUD, 2020</Text>
-      <Anchor color="secondary" label="About" />
     </Footer>
   );
 };

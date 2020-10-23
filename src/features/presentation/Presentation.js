@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Text, Box, Avatar } from "grommet";
 
 const Presentation = (props) => {
-  const [count, setCount] = useState(0);
 
   const celine = '//s.gravatar.com/avatar/b7fb138d53ba0f573212ccce38a7c43b?s=80';
 
