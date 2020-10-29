@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Text, Box, Avatar } from "grommet";
-import Loisir from "../loisir/Loisir";
-import "../loisirs/loisirs.css";
+import React from "react";
+import { Text, Box } from "grommet";
+import Loisir from "../../components/loisir";
+import "./loisirs.css";
 
-const Loisirs = (props) => {
+const LoisirsPage = () => {
   return (
     <div class="loisirs">
       <Text size="xxlarge" color="accent">Mes loisirs</Text>
@@ -25,4 +25,4 @@ const Loisirs = (props) => {
   );
 };
 
-export default Loisirs;
+export default LoisirsPage;

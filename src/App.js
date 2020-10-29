@@ -1,12 +1,12 @@
 import React from 'react';
 import { Grommet } from 'grommet';
-import AppBar from './features/appBar/AppBar';
-import Loisirs from './features/loisirs/Loisirs';
-import Competences from './features/competences/Competences';
-import Presentation from './features/presentation/Presentation';
-import Experience from './features/experience/Experience';
-import AppFooter from './features/footer/Footer';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import LoisirPage from './pages/loisir/loisirs';
+import Competences from './pages/competence/competences';
+import Presentation from './pages/presentation/presentations';
+import Experience from './pages/experience/experiences';
+import AppBar from './components/app-bar';
+import FooterComponent from './components/footer';
 
 const theme = {
   global: {
@@ -38,7 +38,7 @@ function App() {
         </Switch>
         <Switch>
           <Route exact path="/loisirs">
-            <Loisirs></Loisirs>
+            <LoisirPage></LoisirPage>
           </Route>
         </Switch>
         <Switch>
@@ -46,7 +46,7 @@ function App() {
             <Experience></Experience>
           </Route>
         </Switch>
-        <AppFooter></AppFooter>
+        <FooterComponent></FooterComponent>
       </Grommet>
     </BrowserRouter>
   );

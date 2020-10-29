@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Text, Box, Avatar } from "grommet";
 
-const Presentation = (props) => {
+const PresentationsPage = (props) => {
 
   const celine = '//s.gravatar.com/avatar/b7fb138d53ba0f573212ccce38a7c43b?s=80';
 
@@ -18,4 +18,4 @@ const Presentation = (props) => {
   );
 };
 
-export default Presentation;
+export default PresentationsPage;

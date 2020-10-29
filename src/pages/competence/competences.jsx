@@ -1,9 +1,9 @@
 import React from "react";
 import { Text, Box } from "grommet";
-import Competence from "../competence/Competence";
-import "../competences/competences.css";
+import Competence from '../../components/competence';
+import "./competences.css";
 
-const Competences = () => {
+const CompetencesPage = () => {
   return (
     <div class="competences">
       <Text size="xxlarge" color="accent">
@@ -71,4 +71,4 @@ const Competences = () => {
   );
 };
 
-export default Competences;
+export default CompetencesPage;

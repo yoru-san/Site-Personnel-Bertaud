@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, Box, Meter, Stack } from "grommet";
-import "../competences/competences.css";
+import "./competence.css";
 
-const Competence = (props) => {
+const CompetenceComponent = (props) => {
   const pourcentage = props.pourcentage;
   const pourcentageManquant = 100 - props.pourcentage;
 
@@ -38,4 +38,4 @@ const Competence = (props) => {
   );
 };
 
-export default Competence;
+export default CompetenceComponent;

@@ -1,12 +1,10 @@
-import React, { useState } from "react";
-import { Header, Button, Text, ResponsiveContext } from "grommet";
+import React from "react";
+import { Header, Button, Text } from "grommet";
 import { Home } from "grommet-icons";
 import { Link } from "react-router-dom";
-import "./appBar.css";
+import "./app-bar.css";
 
 const AppBar = (props) => {
-  const size = React.useContext(ResponsiveContext);
-
   //gestion du responsive
   return (
     <Header background="primary" align="center">

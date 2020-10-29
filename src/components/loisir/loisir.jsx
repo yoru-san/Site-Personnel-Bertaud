@@ -1,8 +1,8 @@
 import React from "react";
-import { Card, CardHeader, CardBody, Image, Box, Text } from "grommet";
-import "../loisir/loisir.css";
+import { Card, CardBody, Image, Box, Text } from "grommet";
+import "./loisir.css";
 
-const Loisir = (props) => {
+const LoisirComponent = (props) => {
   return (
     <div class="loisir">
       <Box pad="medium" align="start">
@@ -23,4 +23,4 @@ const Loisir = (props) => {
   );
 };
 
-export default Loisir;
+export default LoisirComponent;

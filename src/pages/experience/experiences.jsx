@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Text, Stack, Diagram } from "grommet";
-import '../experience/experience.css';
+import './experiences.css';
 
-const Experience = () => {
+const ExperiencesPage = () => {
   return (
     <div class="experience">
     <Box align="center">
@@ -171,4 +171,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default ExperiencesPage;
