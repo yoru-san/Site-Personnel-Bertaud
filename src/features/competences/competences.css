@@ -1,4 +1,9 @@
 .competences {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
+}
+
+.competence {
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
