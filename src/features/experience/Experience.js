@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { Box, Text, Stack, Diagram } from "grommet";
+import '../experience/experience.css';
 
-const Experience = (props) => {
+const Experience = () => {
   return (
+    <div class="experience">
     <Box align="center">
-      <Box pad="large">
+      <Text color="accent" size="xxlarge">Mon expérience</Text>
+      <Box pad="large" align="center">
         <Stack guidingChild={1}>
           <Diagram
             connections={[
@@ -95,7 +98,7 @@ const Experience = (props) => {
                 border={{ size: "medium", color: "primary" }}
               >
                 <Text>
-                  Juillet 2017 : Stage chez Pinterac en tant que Développeur Web
+                  Juillet 2017 : Stage chez Pinterac (Développeur Web)
                   Junior.
                 </Text>
               </Box>
@@ -109,8 +112,7 @@ const Experience = (props) => {
                 border={{ size: "medium", color: "primary" }}
               >
                 <Text>
-                  Juillet 2018 : Stage chez Chausson Matériaux en tant que
-                  Développeur Fullstack Junior.
+                  Juillet 2018 : Stage chez Chausson Matériaux (Développeur Fullstack Junior).
                 </Text>
               </Box>
               <Box
@@ -122,9 +124,9 @@ const Experience = (props) => {
                 background="light-3"
                 border={{ size: "medium", color: "primary" }}
               >
-                <Text>
+                <Text align="center">
                   2018 : Obtention du Bachelor Informatique et Systèmes
-                  d'Information chez Ynov Toulouse.
+                  d'Information chez Ynov.
                 </Text>
               </Box>
               <Box
@@ -152,7 +154,7 @@ const Experience = (props) => {
               <Box
                 id="8"
                 height="small"
-                width="medium"
+                width="small"
                 margin="small"
                 pad="medium"
                 background="light-3"
@@ -165,6 +167,7 @@ const Experience = (props) => {
         </Stack>
       </Box>
     </Box>
+    </div>
   );
 };
 

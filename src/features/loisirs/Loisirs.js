@@ -6,7 +6,7 @@ import "../loisirs/loisirs.css";
 const Loisirs = (props) => {
   return (
     <div class="loisirs">
-      <Text size="xxlarge" color="accent">Mes loisirs :</Text>
+      <Text size="xxlarge" color="accent">Mes loisirs</Text>
       <Box direction="row" justify="center" align="center">
         <Loisir
           title="L'équitation"
