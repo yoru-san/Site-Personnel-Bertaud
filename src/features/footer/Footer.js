@@ -6,11 +6,12 @@ const AppFooter = (props) => {
   const [count, setCount] = useState(0);
   const size = React.useContext(ResponsiveContext);
 
-  //gestion du responsive
   return (
-    <Footer background="primary" pad="medium">
-      <Text color="secondary">Copyright Céline BERTAUD, 2020</Text>
-    </Footer>
+    <div class="footer">
+      <Footer background="primary" pad="medium">
+        <Text color="secondary">Copyright Céline BERTAUD, 2020</Text>
+      </Footer>
+    </div>
   );
 };
 
