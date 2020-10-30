@@ -5,7 +5,7 @@ import Competence from '../../components/competence';
 const CompetencesPage = () => {
   return (
     <Box margin={{ "top": "2%" }}>
-      <Text textAlign="center" size="xxlarge" color="accent">
+      <Text textAlign="center" size="40px" color="accent">
         Mes compétences
       </Text>
       <Box align="center" pad="large">

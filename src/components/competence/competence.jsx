@@ -15,11 +15,11 @@ const CompetenceComponent = (props) => {
           values={[
             {
               value: pourcentage,
-              color: "primary",
+              color: "accent",
             },
             {
               value: pourcentageManquant,
-              color: "accent",
+              color: "light-3",
             },
           ]}
           max={100}

@@ -10,13 +10,26 @@ import FooterComponent from './components/footer';
 
 const theme = {
   global: {
-    colors: { primary: '#41a89c', secondary: 'white', accent: '#ff90b0' },
+    focus: {
+      shadow: {
+        size: "0px"
+      }
+    },
+    colors: { primary: '#4c548e', secondary: 'white', accent: '#ff90b0' },
     font: {
       family: 'Lato',
       size: '18px',
       height: '20px',
     },
   },
+  checkBox: {
+    color: "accent",
+    hover: {
+      border: {
+        color: "accent",
+      }
+    }
+  }
 };
 
 function App() {
