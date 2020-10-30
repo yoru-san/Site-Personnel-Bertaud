@@ -1,11 +1,9 @@
 import React from "react";
 import { Box, Text, Stack, Diagram } from "grommet";
-import './experiences.css';
 
 const ExperiencesPage = () => {
   return (
-    <div class="experience">
-    <Box align="center">
+    <Box align="center" margin="2%">
       <Text color="accent" size="xxlarge">Mon expérience</Text>
       <Box pad="large" align="center">
         <Stack guidingChild={1}>
@@ -98,8 +96,8 @@ const ExperiencesPage = () => {
                 border={{ size: "medium", color: "primary" }}
               >
                 <Text>
-                  Juillet 2017 : Stage chez Pinterac (Développeur Web)
-                  Junior.
+                  Juillet 2017 : Stage chez Pinterac (Développeur Web
+                  Junior).
                 </Text>
               </Box>
               <Box
@@ -167,7 +165,6 @@ const ExperiencesPage = () => {
         </Stack>
       </Box>
     </Box>
-    </div>
   );
 };
 

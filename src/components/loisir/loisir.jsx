@@ -1,11 +1,9 @@
 import React from "react";
 import { Card, CardBody, Image, Box, Text } from "grommet";
-import "./loisir.css";
 
 const LoisirComponent = (props) => {
   return (
-    <div class="loisir">
-      <Box pad="medium" align="start">
+      <Box pad="large" align="start">
         <Card elevation="large" width="medium">
           <CardBody height="small">
             <Image
@@ -19,7 +17,6 @@ const LoisirComponent = (props) => {
           </Box>
         </Card>
       </Box>
-    </div>
   );
 };
 

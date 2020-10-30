@@ -1,6 +1,5 @@
 import React from "react";
 import { Text, Box, Meter, Stack } from "grommet";
-import "./competence.css";
 
 const CompetenceComponent = (props) => {
   const pourcentage = props.pourcentage;
@@ -8,6 +7,7 @@ const CompetenceComponent = (props) => {
 
   return (
     <div class="competence">
+      <Box margin={{"top":"10%", "bottom":"10%", "right":"8%", "left":"8%"}}>
       <Stack anchor="center">
         <Meter
           type="circle"
@@ -34,6 +34,7 @@ const CompetenceComponent = (props) => {
           </Box>
         </Box>
       </Stack>
+      </Box>
     </div>
   );
 };

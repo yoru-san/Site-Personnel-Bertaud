@@ -1,12 +1,11 @@
 import React from "react";
 import { Text, Box } from "grommet";
 import Competence from '../../components/competence';
-import "./competences.css";
 
 const CompetencesPage = () => {
   return (
-    <div class="competences">
-      <Text size="xxlarge" color="accent">
+    <Box margin={{ "top": "2%" }}>
+      <Text textAlign="center" size="xxlarge" color="accent">
         Mes compétences
       </Text>
       <Box align="center" pad="large">
@@ -67,7 +66,7 @@ const CompetencesPage = () => {
           ></Competence>
         </Box>
       </Box>
-    </div>
+    </Box>
   );
 };
 

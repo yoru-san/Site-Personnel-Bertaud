@@ -23,7 +23,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Grommet theme={theme} full>
+      <Grommet theme={theme} full flex>
         <AppBar text="Céline BERTAUD"></AppBar>
 
         <Switch>

@@ -1,12 +1,11 @@
 import React from "react";
 import { Text, Box } from "grommet";
 import Loisir from "../../components/loisir";
-import "./loisirs.css";
 
 const LoisirsPage = () => {
   return (
-    <div class="loisirs">
-      <Text size="xxlarge" color="accent">Mes loisirs</Text>
+    <Box margin="5%">
+      <Text textAlign="center" size="xxlarge" color="accent">Mes loisirs</Text>
       <Box direction="row" justify="center" align="center">
         <Loisir
           title="L'équitation"
@@ -21,7 +20,7 @@ const LoisirsPage = () => {
           img="//france3-regions.francetvinfo.fr/image/qKSRhbJH9Rj-agcqIEqXTjFlQeE/1200x900/regions/2020/06/09/5edf6e0648d98_nuit_de_la_lecture-4042071.jpg"
         ></Loisir>
       </Box>
-    </div>
+    </Box>
   );
 };
 
