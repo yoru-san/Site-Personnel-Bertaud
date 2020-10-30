@@ -27,21 +27,18 @@ function App() {
         <AppBar text="Céline BERTAUD"></AppBar>
 
         <Switch>
+          <Route exact path="/">
+            <Presentation></Presentation>
+          </Route>
           <Route exact path="/presentation">
             <Presentation></Presentation>
           </Route>
-        </Switch>
-        <Switch>
           <Route exact path="/competences">
             <Competences></Competences>
           </Route>
-        </Switch>
-        <Switch>
           <Route exact path="/loisirs">
             <LoisirPage></LoisirPage>
           </Route>
-        </Switch>
-        <Switch>
           <Route exact path="/experience">
             <Experience></Experience>
           </Route>

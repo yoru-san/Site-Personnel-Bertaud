@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import "./app-bar.css";
 
 const AppBar = (props) => {
-  //gestion du responsive
   return (
     <Header background="primary" align="center">
       <Link to="presentation">
