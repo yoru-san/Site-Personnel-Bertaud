@@ -4,7 +4,7 @@ import Loisir from "../../components/loisir";
 
 const LoisirsPage = () => {
   return (
-    <Box margin="5%">
+    <Box margin="5%" animation="fadeIn">
       <Text textAlign="center" size="xxlarge" color="accent">Mes loisirs</Text>
       <Box direction="row" justify="center" align="center">
         <Loisir

@@ -3,7 +3,7 @@ import { Box, Text, Stack, Diagram } from "grommet";
 
 const ExperiencesPage = () => {
   return (
-    <Box align="center" margin="2%">
+    <Box align="center" margin="2%" animation="fadeIn">
       <Text color="accent" size="xxlarge">Mon expérience</Text>
       <Box pad="large" align="center">
         <Stack guidingChild={1}>

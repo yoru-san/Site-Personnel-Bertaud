@@ -7,7 +7,7 @@ const PresentationsPage = () => {
 
   return (
     <div>
-      <Box direction="row" justify="center" margin="10%">
+      <Box direction="row" justify="center" margin="10%" animation="slideRight">
         <Avatar src={photoCeline} size="350px" />
         <Box direction="column" justify="center" size="xlarge" margin={{"left": "3%"}}>
             <Text color="accent" size="xxlarge">Céline BERTAUD</Text>

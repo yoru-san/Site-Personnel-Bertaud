@@ -7,7 +7,7 @@ const CompetenceComponent = (props) => {
 
   return (
     <div class="competence">
-      <Box margin={{"top":"10%", "bottom":"10%", "right":"8%", "left":"8%"}}>
+      <Box margin={{"top":"10%", "bottom":"10%", "right":"8%", "left":"8%"}} animation={{"type": "jiggle", "duration":"700"}}>
       <Stack anchor="center">
         <Meter
           type="circle"
